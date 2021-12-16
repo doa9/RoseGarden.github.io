@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dr.Zhang Research Group</title>
+    <style>
+      *{
+  margin:0;
+  padding:0;
+}
+body{
+    margin:0;
+    padding: 0;
+    background-color: #fae6e6;
+    background-position: center;
+    background-size:cover;
+    height: 100vh;
+    background-repeat: repeat;
+    font-family: lato;
+    padding-top:50px;
+  }
+  
+h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+}
+
+.nav li:hover{
+  color: lightpink;
+  background-color:powderblue;
+}
+
+.nav > ul{
+  padding: 0;
+  display: inline-block;
+  background-color:powderblue;
+  color: white;
+  width: 1200px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.nav >ul>li{
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 200px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  height: 50px;
+  line-height: 50px;
+  }
+.dropdown{
+  position: absolute;
+  top: 100%;
+  left:0;
+  width: 100%;
+  padding: 0;
+
+}
+.dropdown li{
+  color: white;
+  background:powderblue;
+  display: none;
+
+}
+.dropdown li:hover{
+  color: lightpink;
+  background:powderblue;
+
+}
+.nav li:hover>.dropdown{
+  perspective: 1000px;
+}
+.nav li:hover>.dropdown li{
+  transform-origin: top center;
+  opacity: 0;
+  display: block;
+
+}
+.nav li:hover>.dropdown li:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+
+}
+.nav li:hover>.dropdown li:nth-child(2){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+.nav li:hover>.dropdown li:nth-child(3){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+a:hover{
+  color: lightpink;
+}
+       
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+    }
+  0%{
+   opacity: 0;
+   transform: translateX(-100);
+  }
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+  }
+  70%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+  .content{
+   padding-top: 100px;
+    font-size: 20px;
+   }
+    img {
+      width: 200px;
+      border-radius: 110px;
+      float: center;
+      margin-left: 400px;
+    
+    }
+    p.username {
+      font-weight: bold;
+    }
+    </style>
+  </head>
+  <body stlyle = "background-color: #fae6e6;">
+    
+    <div class="nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href = "About.html">About Us</a></li>
+          <li>Roses
+          <ul class="dropdown">
+              <li><a href="Floribunda.html">Floribunda</a></li>
+              <li><a href="HybridTea.html">Hybrid Tea</a></li>
+              <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+          </ul>
+          </li>
+          <li><a href="newtech.html">Garden Tech</a></li>
+          <li><a href="design.html">Garden Design</a></li>
+          <li><a href="howtogrow.html">Garden Tips</a></li>
+      </ul>    
+  </div>
+  <div class= "content">
+    <img src="zhnag.jpg" alt="Dr.Ting Zhang"/>
+    <h2>About Dr.Ting Zhang</h2>
+    <p>
+      <a href="https://www.uhd.edu/academics/sciences/computer-science-engineering-technology/Pages/bio-zhangtin.aspx" target="_blank"> Dr.Ting Zhang</a>
+      </a> holds a Ph.D. in Electrical Engineering from the University of Alabama.
+      Her main research interests include sensor systems, intelligent algorithms
+      and virtual reality. She has published more than twenty papers on referred
+      journals and conference proceedings, as well as a book. She teaches a wide
+      range of courses in computer science, including computer organization,
+      programming languages, data structures, and web programming. She
+      supervises students on senior projects and research activities.
+    </p>
+    <h2>Research Group</h2>
+    <p></p>
+    <ul>
+      <li>Bhagwat Dhakal</li>
+      <li>Huy Pham</li>
+      <li>Phi Le</li>
+      <li>Anh Do</li>
+      <li>Agda Esperanza</li>
+    </ul>
+    <h2>Topic for Research</h2>
+    <h3>Artificial Intelligence Based Web Portal of Flower</h3>
+    <p>
+      In this research, we will build an Artificial Intelligence based web
+      portal for growing flowers. The website is unique that it targets for
+      garden beginners in Texas, and can give recommendations based on user's
+      preference. We will include around 100 species, divided by categories of
+      annuals and perennials. Particularly we will have special categories of
+      roses, cactus and orchids. We will have special categories of climbers.
+      For each plant, we will have information about color category, growing
+      easiness, care tips, blooming periods, budget range, and possible
+      nurseries. Images and videos will be utilized. Moreover, we will have an
+      artificial intelligence based component built on database, to give
+      recommendations, based on user's preference.The proposed research will
+      support Department of Computer Science and Engineering Technology as
+      Computer Science program have just launched a newly approved Master's
+      program, Master's in Artificial Intelligence. The research work will
+      involve around 80 students taking Web Programming class each Fall so that
+      they will apply their knowledge to benefit the community in a very
+      practical way. The research involves novel algorithms in Database
+      Searching, Artificial Intelligence and Web Programming, as booming areas
+      in computer science for people's everyday use. The algorithm and the
+      project can result in patents, in Artificial Intelligence and Web
+      Programming.
+    </p>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>How to Grow a Rose</title>
+<style>
+  *{
+  margin:0;
+  padding:0;
+}
+body{
+
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: repeat;
+  font-family: lato;
+  padding-top:50px;
+}
+
+.nav{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+}
+
+.nav li:hover{
+  color: lightpink;
+  background-color:powderblue;
+}
+
+.nav > ul{
+  padding: 0;
+  display: inline-block;
+  background-color:powderblue;
+  color: white;
+  width: 1200px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.nav >ul>li{
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 200px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  height: 50px;
+  line-height: 50px;
+  }
+.dropdown{
+  position: absolute;
+  top: 100%;
+  left:0;
+  width: 100%;
+  padding: 0;
+
+}
+.dropdown li{
+  color: white;
+  background:powderblue;
+  display: none;
+
+}
+.dropdown li:hover{
+  color: lightpink;
+  background:powderblue;
+
+}
+.nav li:hover>.dropdown{
+  perspective: 1000px;
+}
+.nav li:hover>.dropdown li{
+  transform-origin: top center;
+  opacity: 0;
+  display: block;
+
+}
+.nav li:hover>.dropdown li:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+
+}
+.nav li:hover>.dropdown li:nth-child(2){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+.nav li:hover>.dropdown li:nth-child(3){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+a:hover{
+  color: lightpink;
+}
+       
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+    }
+  0%{
+   opacity: 0;
+   transform: translateX(-100);
+  }
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+  }
+  70%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+.content{
+   
+   font-size: 20px;
+   padding-top: 80px;
+
+  }
+  h1,h2 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .center {
+   text-align: center;
+ }
+ img {
+   width: 350px;
+   border-radius: 0px;
+   float: center;
+   margin-left: 400px;
+   border-radius: 0%;
+ }
+ .float-img {
+   float: right;
+   margin-right: 10px;
+   margin-bottom: 5px;
+   border: solid black 1px;
+   padding: 2px;
+ }
+ .floatleft
+ {
+  float:right;
+   margin: 0 10px 10px 0;
+   border: 2px solid #000;
+ }
+
+</style>
+  </head>
+  <body background="1.jpg">
+    <div class="nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href = "About.html">About Us</a></li>
+          <li>Roses
+          <ul class="dropdown">
+              <li><a href="Floribunda.html">Floribunda</a></li>
+              <li><a href="HybridTea.html">Hybrid Tea</a></li>
+              <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+          </ul>
+          </li>
+          <li><a href="newtech.html">Garden Tech</a></li>
+          <li><a href="design.html">Garden Design</a></li>
+          <li><a href="howtogrow.html">Garden Tips</a></li>
+      </ul>    
+  </div>
+
+  <div class = "content">
+    <h1>How to Grow and Care for Roses</h1>
+    <img src="rose1.jpg" alt="Image of backyard rose" />
+    <p>
+        Planting a rose is a simple and delightful method to enhance the attractiveness of our landscape. Growing a rose in the yard offers several advantages for both our physical health and the environment. Watching the roses bloom also gives you a sense of accomplishment, knowing that your efforts have paid off. Planting a rose is enjoyable, but it may appear scary to a beginner gardener; yet the process is really simple. You will find instructions on how to plant a rose, water it, fertilize it, trim it, and protect it during the cold seasons
+    </p>
+      <p> There are various steps to keep your roses healthy which are as follows:
+      <ol type="1">
+        <b><li>Watering</li></b>
+        <b><li>Fertilizing</li></b>
+        <b><li>Deadheading</li></b>
+        <b><li>During winter seasons</li></b>
+      </ol>
+    </p>
+    <h2>1. Watering</h2>
+    <img src="watering.jpg" alt=""class="floatleft">
+
+       <p>Morning is the best time to water roses. Giving your roses a thorough soak in the morning 
+       will energize them with water in preparation for the hot summer day ahead. Water your roses 
+       once a week with 1 to 2 inches of water. Roses do best with a soak and dry style of watering 
+       as their roots do not tolerate persistently wet soil. As long as they get a proper soak with 
+       enough water, once a week is Fine under normal conditions. Meanwhile, during the warmest and 
+       driest weeks of summer, you'll need to water your rose at least twice a week, if not three times. 
+       Drooping leaves and stems are generally the first indicator of drought stress, in which 
+       case you should water the rose immediately. Although, you do not need to put a lot of water 
+       in winter because your rose will not be actively growing over and the soil is naturally more 
+       wet in winter.</p>
+  
+ 
+    <table border="5" width="50%" align="center" cellpadding="4" cellspacing="3">
+        <tr>
+            <b><th>Types of Rose</th></b>
+            <b><th>How much water (in the growing season)</th></b>
+            <b><th>How many times per week</th></b>
+        </tr>
+        <tr>
+            <td>Established Rose bushes</td>
+            <td>2 Gallons(9 litres)</td>
+            <td>1 watering per week</td>
+        </tr>
+        <tr>
+            <td>Large Climbing Roses</td>
+            <td>4 Gallons(9 litres)</td>
+            <td>1 watering per week</td>
+        </tr>
+        <tr>
+            <td>Newly Planted Roses</td>
+            <td>2 Gallons(9 litres)</td>
+            <td>3 or 4 times per week</td>
+        </tr>
+        <tr>
+            <td>Potted Roses</td>
+            <td>2 Gallons(9 litres)</td>
+            <td>1 or 2 times per week</td>
+        </tr>
+        <tr>
+            <td>Roses in Sand Soil</td>
+            <td>2 Gallons(9 litres)</td>
+            <td>1or 2 times per week</td>
+        </tr>
+    </table>
+    <p>
+        <p> <h2 style="text-align: center;">2. Fertilizing</h2></p>
+
+    </p>
+    
+    <img src="fertilizing.jpg" alt="" class="floatleft" height="250"/>
+    Because roses are heavy feeders, fertilizers are an important aspect of rose care. Roses require three macronutrients for development: nitrogen for growth,  phosphorus for root growth, and potassium for flower development, as well as a variety of micronutrients such as iron. Only phosphorous should be applied to newly planted roses to enhance root growth and establishment. Before applying any other fertilizer, wait until the rose has flowered. Begin fertilizing when the first leaves appear and the risk of severe spring frosts has passed. Following that, the fertilizer plan should be determined by how long and how frequently the rose blooms.
+    As a general guideline, fertilize after each bloom cycle, but lower the amount of fertilizer by half each time. Fertilizer should be stopped six to eight weeks before the first average frost date in your region. This is because you don't want the plant to generate a lot of fragile new growth late in the summer, which will be harmed by cold weather in the fall and winter. Adding fertilizers will not hurt the plants, but will prepare them for the next spring.
+    <br><br>
+    <table border="5" width="66%" align="center" cellpadding="2" cellspacing="1">
+      <tr>
+        <td><h5>Types of Fertilizer</h5></td>
+        <td align="center"> <h5>Purpose</h5></td>
+      </tr>
+      <tr>
+        <td>Nitrogen (N)</td>
+        <td>Promotes healthy vegetative, green growth. Nitrogen is a component of all proteins and because water washes it away from the root zone, roses require a consistent supply. It is needed to build chlorophyll and allows the plant to use light to turn water and carbon dioxide into sugars to feed itself. Too much and you produce lush plants with few or no blooms. Too little, and the rose will have yellow leaves, no new growth, and small pale roses.</td>
+      </tr>
+      <tr>
+        <td>Phosphorous (P)</td>
+        <td>Makes for strong roots and abundant flower production. Too little will cause dull foliage, falling leaves, weak flower stems, and buds that will not open.</td>
+      </tr>
+      <tr>
+        <td>Potassium (K)</td>
+        <td>Also known as potash, encourages vigorous growth and makes sure all is in good working order. It is like an immune system booster that helps the plant through stressed times such as disease/insect damage, drought, and cold temperatures. Lack of potassium will produce weak stems, poorly developed buds, and yellow edges on the leaves, which turn brown.</td>
+      </tr>
+      <tr>
+        <td>Calcium (ca)</td>
+        <td>Increases the strength of cell walls; enables a plant to better ward off sucking insects like aphids.</td>
+      </tr>
+      <tr>
+        <td>Magnesium (Mg) </td>
+        <td>Crucial nutrient that promotes dark green leaves, intensified flower color, increased flower production, and can also help flush harmful salts through the soil. </td>
+        </tr>
+    </table>
+
+     <h2 style="text-align: center;">3. Deadheading</h2>
+    <img src="deadheading.jpg" alt=""class="floatleft"/> 
+    As we know, deadheading is the gardening term used for the removal of faded or dead flowers from te plants. It is done both to maintain a plant’s appearance and to improve its overall performance. It not also increases the number of flowers your rose produces each season but also reduces the chances of fungal growth, and improves the air circulation around the plants stem.
+    As we all know, deadheading is the method of removing  dead flowers from plants. It is done to keep a plant's beauty as well as to increase its general performance. It not only increases the quality of flowers your rose produces each season, but it also decreases the likelihood of fungal development and promotes air circulation around the plant's stem.
+    The position and type of cut you make while removing wasted flowers affect the plant's health and your chances to get more flowers.
+Follow these tips for best results:
+
+<ul style="list-style-type: circle;">
+    <li>Use very sharp pruning shears or garden scissors to avoid tearing the plant's stem and sanitize your clippers with rubbing alcohol between cuts to limit the spread of illness.</li>
+    <li> Make the cutting at a 45-degree angle so that water runs off rather than settling on the open cut.</li>
+    <li> For the first deadheading of the season, cut approximately 1/4 inch above the first leaflet with three full leaves on it, when the stems are normally shortish. For each successive deadheading, cut farther down, until just above a leaflet with five leaves, after the first.</li>
+    <li>Cut further down on the stem if you want to bring cut flowers into the house. This process will give you fewer but larger new flowers.</li>
+    <li>Seal the new cut with nail polish or white all-purpose glue to help ensure that insects or disease don't infest the plant.</li>
+</ul>
+<p>
+    <p> <h2 style="text-align:center ;">4. During Cold season</h2></p>
+
+</p>
+<img src="winter.jpg" alt=""class="floatleft" height="250"/>
+<br>
+Winter may be brutal, and many gardeners see freezing weather as a death sentence for their beloved plants. However, with appropriate care and attention, you can help many of your plants in surviving the winter storms.<br> &nbsp; &nbsp; &nbsp; Some of the steps are as follows:
+
+<ol type="a">
+    <li> After August, stop feeding roses any further fertilizer. This is due to the fact that we do not want the roses to be still developing hard when the first harsh winter arrives, since this might destroy the plant. As a result, stopping fertilizing is a kind of winter protection for roses.</li>
+    <li>Stop deadheading or removing the old blooms by the end of august. This will help give a message to the rose bushes that it is time to slow down and put some energy inter their winter reserves.</li>
+    <li>Water the roses during the warmer days during the winter, check the soil and water lighly as needed. You do not want to soak the; just give them a little drink and check the soil moisture again to see if it has improved. </li>
+</ol>
+
+<h2 align="center"> Youtube Videos </h2>
+<iframe width="315" height="250" src="https://www.youtube.com/embed/CFnc8KHpPiE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="315" height="250" src="https://www.youtube.com/embed/u-hSUrlvz6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="315" height="250" src="https://www.youtube.com/embed/CJUS3eFEHrk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="315" height="250" src="https://www.youtube.com/embed/6eu-Vl0xh6E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Floribunda</title>
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1200 px;
+  margin: auto;
+  font-family: cabrili;
+  padding-top: 100px;
+}
+h3 {font-size: 1.5em;}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-family: cabrili;
+  color: rgb(43, 44, 43)
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  
+
+</style>
+</head>
+<body>
+  
+  <div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href = "About.html">About Us</a></li>
+        <li>Roses
+        <ul class="dropdown">
+            <li><a href="Floribunda.html">Floribunda</a></li>
+            <li><a href="HybridTea.html">Hybrid Tea</a></li>
+            <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+        </ul>
+        </li>
+        <li><a href="newtech.html">Garden Tech</a></li>
+        <li><a href="design.html">Garden Design</a></li>
+        <li><a href="howtogrow.html">Garden Tips</a></li>
+    </ul>    
+</div>
+<!-- MAIN (Center website) -->
+
+<div class="main">
+    
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+        <a href="floribunda_Iceberg.html"> 
+        <img src="Iceberg1.jpg" alt="Iceberg"  style="width:100%"></a>
+      <h3>Iceberg</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <a href="floribunda_AugustSeebauer.html"> 
+        <img src = "AugustSeebauer1.jpg" alt = "August Seebauer" style="width:100%"></a>
+      <h3>August Seebauer</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_JuliaChild.html"> 
+      <img src="JuliaChild3.jpg" alt="Julia Child" style="width:100%"></a>
+      <h3>Julia Child</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_Impatient.html"> 
+    <img src="Impatient2.jpg" alt="Impatient" style="width:100%"></a>
+      <h3>Impatient</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_AngelFace.html"> 
+      <img src="AngelFace2.jpg" alt="Angel Face" style="width:100%"></a>
+      <h3>Angel Face</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_chanelle.html"> 
+      <img src="chanelle3.jpg" alt="chanelle" style="width:100%"></a>
+      <h3>Chanelle</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_HotCocoa.html"> 
+      <img src="HotCocoa3.jpg" alt="Hot Cocoa" style="width:100%"></a>
+      <h3>Hot Cocoa</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="floribunda_MardiGras.html"> 
+      <img src="MardiGras2.jpg" alt="Mardi Gras" style="width:100%"></a>
+      <h3>Mardi Gras</h3>
+    </div>
+  </div>
+
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+

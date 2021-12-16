@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap"
+      rel="stylesheet"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technologies in gardening</title>
+    <style>
+      *{
+  margin:0;
+  padding:0;
+}
+body{
+
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+  background-repeat: repeat;
+  font-family: lato;
+
+}
+h1{
+  text-align: center;
+  padding-top: 100px;
+}
+h2{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav{
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  padding-top:50px;
+}
+
+.nav li:hover{
+  color: lightpink;
+  background-color:powderblue;
+}
+
+.nav > ul{
+  padding: 0;
+  display: inline-block;
+  background-color:powderblue;
+  color: white;
+  width: 1200px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.nav >ul>li{
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  width: 200px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  height: 50px;
+  line-height: 50px;
+  }
+.dropdown{
+  position: absolute;
+  top: 100%;
+  left:0;
+  width: 100%;
+  padding: 0;
+
+}
+.dropdown li{
+  color: white;
+  background:powderblue;
+  display: none;
+
+}
+.dropdown li:hover{
+  color: lightpink;
+  background:powderblue;
+
+}
+.nav li:hover>.dropdown{
+  perspective: 1000px;
+}
+.nav li:hover>.dropdown li{
+  transform-origin: top center;
+  opacity: 0;
+  display: block;
+
+}
+.nav li:hover>.dropdown li:nth-child(1){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: -150ms;
+
+}
+.nav li:hover>.dropdown li:nth-child(2){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 0ms;
+}
+.nav li:hover>.dropdown li:nth-child(3){
+  animation: animate 300ms ease-in-out forwards;
+  animation-delay: 150ms;
+}
+
+a:hover{
+  color: lightpink;
+}
+       
+@keyframes animate{
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+    }
+  0%{
+   opacity: 0;
+   transform: translateX(-100);
+  }
+  0%{
+    opacity: 0;
+    transform: translateX(-100);
+  }
+  70%{
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+      h1 {
+        font-size: 50px;
+        font-style: italic;
+        position: initial;
+        padding-top:100px;
+      }
+      img {
+        height: 500px;
+       width: auto;
+      }
+      p {
+        font-size: 20px;
+      }
+  
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href = "About.html">About Us</a></li>
+          <li>Roses
+          <ul class="dropdown">
+              <li><a href="Floribunda.html">Floribunda</a></li>
+              <li><a href="HybridTea.html">Hybrid Tea</a></li>
+              <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+          </ul>
+          </li>
+          <li><a href="newtech.html">Garden Tech</a></li>
+          <li><a href="design.html">Garden Design</a></li>
+          <li><a href="howtogrow.html">Garden Tips</a></li>
+      </ul>    
+  </div>
+  
+    <h1>New technologies in gardening</h1>
+
+    <h2>1. Homegrown</h2>
+    <img src="homegrown_app.png" alt="homrgrown" />
+    <p>
+      <a href="http://bonnieplants.com/app/">Boonie Plant's app</a> provides a
+      simple and intuitive way for you to record your plants’ growth and improve
+      your gardening skills. Ideal for those growing herbs and vegetables,
+      HOMEGROWN combines contemporary technology with the traditional medium of
+      gardening. In the app, you can track your garden’s progress, access a
+      series of guides, check the predicted weather and rainfall for your locale
+      and browse information on more than 250 vegetables and herbs.
+    </p>
+    <h2>2. OGarden Smart</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/RAnQGqjpbIU"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <p>
+      Looking for more leafy greens in your life? Dreaming of a day when you can
+      have strawberries on demand? The OGarden Smart, an indoor gardening
+      instrument that wouldn’t seem out of place in “2001: A Space Odyssey,” is
+      here to help. This rotating, circular garden is capable of growing 90
+      different fruits and vegetables at the same time, regardless of season,
+      all from the comfort of your apartment. The intelligent incubator is fully
+      equipped to automatically water and light your crops as needed, and with
+      10 days of water autonomy and a completely pesticide- and herbicide-free
+      growing system, the amount of upkeep from owners is minimal, allowing
+      users to sit back and watch Hulu as the harvest comes in.
+    </p>
+  </body>
+</html>

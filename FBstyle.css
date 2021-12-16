@@ -1,0 +1,50 @@
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 1rem;
+    line-height: 150%;
+  }
+
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+
+  /* Pen-specific styles */
+  * {
+    box-sizing: border-box;
+  }
+  html, body, section, div {
+    height: 100%;
+  }
+
+ 
+  h1 {
+    font-size: 1.75rem;
+    margin: 0 0 0.75rem 0;
+  }
+  .row {
+    padding-top:100px;
+ }
+ .column {
+    float: left;
+    }
+
+
+  /* Pattern styles */
+  .left-half {
+    width: 50%;
+    text-align: center;
+  }
+  .right-half {
+    float: left;
+    width: 50%;
+  }

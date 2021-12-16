@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Climbing Roses</title>
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1200 px;
+  margin: auto;
+  font-family: cabrili;
+  padding-top: 100px;
+}
+h3 {font-size: 1.5em;}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-family: cabrili;
+  color: rgb(43, 44, 43)
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  
+
+</style>
+</head>
+<body>
+  
+  <div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href = "About.html">About Us</a></li>
+        <li>Roses
+        <ul class="dropdown">
+            <li><a href="Floribunda.html">Floribunda</a></li>
+            <li><a href="HybridTea.html">Hybrid Tea</a></li>
+            <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+        </ul>
+        </li>
+        <li><a href="newtech.html">Garden Tech</a></li>
+        <li><a href="design.html">Garden Design</a></li>
+        <li><a href="howtogrow.html">Garden Tips</a></li>
+    </ul>    
+</div>
+<!-- MAIN (Center website) -->
+
+<div class="main">
+    
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+        <a href="Bathsheba.html"> 
+        <img src="bathsheba2.png" alt="Bathsheba"  style="width:100%"></a>
+      <h3>Bathsheba</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="teasingGeorgia.html"> 
+      <img src="teasingGeorgia.jpg" alt="Teasing Georgia" style="width:100%"></a>
+      <h3>Teasing Georgia</h3>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="content">
+      <a href="donJuan.html"> 
+      <img src="donJuan.jpg" alt="Don Juan" style="width:100%"></a>
+      <h3>Don Juan</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="generousGardener.html"> 
+    <img src="generousGardener.png" alt="Generous Gardener" style="width:100%"></a>
+      <h3>Generous Gardener</h3>
+    </div>
+  </div>
+</div>
+<div class = "row">
+  <div class="column">
+    <div class="content">
+      <a href="strawberryHill.html"> 
+      <img src="strawberryHill.jpg" alt="strawberry Hill" style="width:100%"></a>
+      <h3>Strawberry Hill</h3>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+      <a href="ThePilgrim.html"> 
+      <img src="thePilgrim.png" alt="The Pilgrim" style="width:100%"></a>
+      <h3>The Pilgrim</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <a href="ClaireAustin.html"> 
+        <img src = "claireAustin.png" alt = "Claire Austin" style="width:100%"></a>
+      <h3>Claire Austin</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="gertrudeJekyll.html"> 
+      <img src="gertrudeJekyll.jpg" alt="gertrude Jekyll" style="width:100%"></a>
+      <h3>Gertrude Jekyll</h3>
+    </div>
+  </div>
+</div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+

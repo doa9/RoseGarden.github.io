@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hybrid Tea</title>
+<link rel="stylesheet" href="style.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 1200 px;
+  margin: auto;
+  font-family: cabrili;
+  padding-top: 100px;
+}
+h3 {font-size: 1.5em;}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  font-family: cabrili;
+  color: rgb(43, 44, 43)
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+  
+
+</style>
+</head>
+<body>
+  
+  <div class="nav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href = "About.html">About Us</a></li>
+        <li>Roses
+        <ul class="dropdown">
+            <li><a href="Floribunda.html">Floribunda</a></li>
+            <li><a href="HybridTea.html">Hybrid Tea</a></li>
+            <li><a href="ClimbingRoses.html">Climbing Roses</a></li>
+        </ul>
+        </li>
+        <li><a href="newtech.html">Garden Tech</a></li>
+        <li><a href="design.html">Garden Design</a></li>
+        <li><a href="howtogrow.html">Garden Tips</a></li>
+    </ul>    
+</div>
+<!-- MAIN (Center website) -->
+
+<div class="main">
+    
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+        <a href="FijiEleganza.html"> 
+        <img src="Fiji_1.jpg" alt="Fiji Eleganza"  style="width:100%"></a>
+      <h3>Fiji Eleganza</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+        <a href="FijiEleganza.html"> 
+        <img src = "FCFarfuma_1.jpeg" alt = "First Crush Farfuma" style="width:100%"></a>
+      <h3>First Crush Farfuma</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="BlackMagic.html"> 
+      <img src="BlackMagic_2.jpg" alt="Black Magic" style="width:100%"></a>
+      <h3>Black Magic</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="BeverlyEleganza.html"> 
+    <img src="Beverly_2.jpg" alt="Beverly Elaganza" style="width:100%"></a>
+      <h3>Beverly Elaganza</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="DarkDesire.html"> 
+      <img src="DarkDesire_1.jpeg" alt="Dark Desire" style="width:100%"></a>
+      <h3>Dark Desire</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="BlissParfuma.html"> 
+      <img src="BlissParfuma_1.jpg" alt="Bliss Parfuma" style="width:100%"></a>
+      <h3>Bliss Parfuma</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="Pinkerbelle.html"> 
+      <img src="Pinkerbelle_1.jpeg" alt="Pinkerbelle" style="width:100%"></a>
+      <h3>Pinkerbelle</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="MrLincoln.html"> 
+      <img src="MrLincoln_1.jpeg" alt="Mister Lincoln" style="width:100%"></a>
+      <h3>Mister Lincoln</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="DoubleDelight.html"> 
+      <img src="DoubleDelight_1.jpg" alt="Double Delight" style="width:100%"></a>
+      <h3>Double Delight</h3>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <a href="DamedeCoeur.html"> 
+      <img src="DamedeCoeur_1.jpg" alt="Dame de Coeur" style="width:100%"></a>
+      <h3>Dame de Coeur</h3>
+    </div>
+  </div>
+
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
+
